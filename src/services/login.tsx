@@ -1,3 +1,8 @@
 export const login = (): void => {
-    alert('Bem vinda!')
+
+    function welcomeAlert() {
+        alert('Olá! Seja muito bem vindo :)')
+    }
+    
+    welcomeAlert()
 }
